@@ -1,0 +1,6 @@
+framework module Pods_Mobizen {
+  umbrella header "Pods-Mobizen-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A12734362419F36C0055A45A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12734352419F36C0055A45A /* AppDelegate.swift */; };
-		A12734382419F36C0055A45A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12734372419F36C0055A45A /* SceneDelegate.swift */; };
 		A127343A2419F36C0055A45A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12734392419F36C0055A45A /* ViewController.swift */; };
 		A127343D2419F36C0055A45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A127343B2419F36C0055A45A /* Main.storyboard */; };
 		A127343F2419F36D0055A45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A127343E2419F36D0055A45A /* Assets.xcassets */; };
 		A12734422419F36D0055A45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12734402419F36D0055A45A /* LaunchScreen.storyboard */; };
+		A127344B2419F3860055A45A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A127344A2419F3860055A45A /* StoreKit.framework */; };
+		A1273458241A1F070055A45A /* PaymentKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1273457241A1F070055A45A /* PaymentKit.swift */; };
+		A127345A241B24210055A45A /* PKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1273459241B24210055A45A /* PKProduct.swift */; };
+		A127345C241B272B0055A45A /* PKStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A127345B241B272B0055A45A /* PKStorage.swift */; };
+		B91870A319F1BA07AA0A5BF6 /* Pods_Mobizen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A41A12E7CE2848E3E63CA75 /* Pods_Mobizen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160C3C7810084A4A06266357 /* Pods-Mobizen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobizen.release.xcconfig"; path = "Target Support Files/Pods-Mobizen/Pods-Mobizen.release.xcconfig"; sourceTree = "<group>"; };
+		9A41A12E7CE2848E3E63CA75 /* Pods_Mobizen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobizen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C52351EEB6DE301C5591821 /* Pods-Mobizen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobizen.debug.xcconfig"; path = "Target Support Files/Pods-Mobizen/Pods-Mobizen.debug.xcconfig"; sourceTree = "<group>"; };
 		A12734322419F36C0055A45A /* Mobizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobizen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12734352419F36C0055A45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A12734372419F36C0055A45A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A12734392419F36C0055A45A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A127343C2419F36C0055A45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A127343E2419F36D0055A45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A12734412419F36D0055A45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A12734432419F36D0055A45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A127344A2419F3860055A45A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A1273457241A1F070055A45A /* PaymentKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentKit.swift; sourceTree = "<group>"; };
+		A1273459241B24210055A45A /* PKProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKProduct.swift; sourceTree = "<group>"; };
+		A127345B241B272B0055A45A /* PKStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A127344B2419F3860055A45A /* StoreKit.framework in Frameworks */,
+				B91870A319F1BA07AA0A5BF6 /* Pods_Mobizen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +54,11 @@
 			children = (
 				A12734342419F36C0055A45A /* Mobizen */,
 				A12734332419F36C0055A45A /* Products */,
+				A12734492419F3860055A45A /* Frameworks */,
+				EA98CF9EA2024B06C4874D7F /* Pods */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		A12734332419F36C0055A45A /* Products */ = {
 			isa = PBXGroup;
@@ -57,14 +72,50 @@
 			isa = PBXGroup;
 			children = (
 				A12734352419F36C0055A45A /* AppDelegate.swift */,
-				A12734372419F36C0055A45A /* SceneDelegate.swift */,
-				A12734392419F36C0055A45A /* ViewController.swift */,
-				A127343B2419F36C0055A45A /* Main.storyboard */,
+				A1273456241A1EEF0055A45A /* PaymentKit */,
+				A1273453241A1BCF0055A45A /* View */,
 				A127343E2419F36D0055A45A /* Assets.xcassets */,
-				A12734402419F36D0055A45A /* LaunchScreen.storyboard */,
 				A12734432419F36D0055A45A /* Info.plist */,
 			);
 			path = Mobizen;
+			sourceTree = "<group>";
+		};
+		A12734492419F3860055A45A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A127344A2419F3860055A45A /* StoreKit.framework */,
+				9A41A12E7CE2848E3E63CA75 /* Pods_Mobizen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1273453241A1BCF0055A45A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A12734392419F36C0055A45A /* ViewController.swift */,
+				A127343B2419F36C0055A45A /* Main.storyboard */,
+				A12734402419F36D0055A45A /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A1273456241A1EEF0055A45A /* PaymentKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1273457241A1F070055A45A /* PaymentKit.swift */,
+				A1273459241B24210055A45A /* PKProduct.swift */,
+				A127345B241B272B0055A45A /* PKStorage.swift */,
+			);
+			path = PaymentKit;
+			sourceTree = "<group>";
+		};
+		EA98CF9EA2024B06C4874D7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C52351EEB6DE301C5591821 /* Pods-Mobizen.debug.xcconfig */,
+				160C3C7810084A4A06266357 /* Pods-Mobizen.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A12734462419F36D0055A45A /* Build configuration list for PBXNativeTarget "Mobizen" */;
 			buildPhases = (
+				64DF9BFC264E1A9FD28B7041 /* [CP] Check Pods Manifest.lock */,
 				A127342E2419F36C0055A45A /* Sources */,
 				A127342F2419F36C0055A45A /* Frameworks */,
 				A12734302419F36C0055A45A /* Resources */,
+				52AF8DE37500A631BF6249E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +186,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52AF8DE37500A631BF6249E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobizen/Pods-Mobizen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobizen/Pods-Mobizen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobizen/Pods-Mobizen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64DF9BFC264E1A9FD28B7041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobizen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A127342E2419F36C0055A45A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1273458241A1F070055A45A /* PaymentKit.swift in Sources */,
 				A127343A2419F36C0055A45A /* ViewController.swift in Sources */,
+				A127345C241B272B0055A45A /* PKStorage.swift in Sources */,
 				A12734362419F36C0055A45A /* AppDelegate.swift in Sources */,
-				A12734382419F36C0055A45A /* SceneDelegate.swift in Sources */,
+				A127345A241B24210055A45A /* PKProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +379,18 @@
 		};
 		A12734472419F36D0055A45A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C52351EEB6DE301C5591821 /* Pods-Mobizen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PK4RASS3K;
 				INFOPLIST_FILE = Mobizen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.lecle.vn.mobizen.Mobizen;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.lecle.vn.mobizen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,16 +399,18 @@
 		};
 		A12734482419F36D0055A45A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160C3C7810084A4A06266357 /* Pods-Mobizen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PK4RASS3K;
 				INFOPLIST_FILE = Mobizen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.lecle.vn.mobizen.Mobizen;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.lecle.vn.mobizen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
